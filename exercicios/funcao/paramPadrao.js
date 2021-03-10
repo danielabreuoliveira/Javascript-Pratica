@@ -24,3 +24,4 @@ function soma2(a = 1, b = 1, c = 1) {
 }
 
 console.log(soma2(), soma2(3), soma2(1, 2, 3), soma2(0, 0, 0))
+console.log(soma2(-1, 0, 4))
