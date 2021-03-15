@@ -20,11 +20,7 @@ const pessoa = nome =>{
 const p2 = new Pessoa('Mickaella')
 p2.falar()
 
-function Pessoa(nome){
-    this.falar = function(){
-        console.log(`Nome ${nome}`)
-    }
-}
+
 function Carro(velocidadeMaxima = 200, delta = 5) {
 
     let velocidadeAtual = 0
